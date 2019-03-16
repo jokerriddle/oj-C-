@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,h;
+	while(scanf("%d %d",&a,&b) != EOF)
+	{
+		h=a/b;
+		printf("%d\n",h);
+	}
+	return 0;
+}
